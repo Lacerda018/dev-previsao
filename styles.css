@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex; /*configuração de organização dos elementos na tela*/
+    justify-content: center;
+    align-items: center; /* alinhamento dos itens*/
+    height: 100vh;/*Altura, vh == altura*/
+    width: 100vw; /*vw == largura*/
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+
+}
+
+.caixa-maior{
+    background-color: black; /* backgroud-color == cor de fundo*/
+    width: 90%; /* width == largura*/
+    max-width: 420px;/*largura máxima que o width pode ter*/
+    opacity: 0.8; /*opacity == transparência do item*/
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input{
+    border: none; /*borda do elemento*/
+    outline: none; /*borda interna do elemto*/
+    padding: 10px; /*padding == espaçamento interno*/
+    border-radius: 24px; /*border-radius == arredonda as bordas*/
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer; /*muda o cursor do mouse para a curvinha*/
+}
+
+button:hover/*hover == evento de passar o mouse em algum item*/ {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media{
+    margin-top: 20px;/*margin-top == margem apenas em cima*/
+}
+
+.caixa-menor{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa{
+    height: 20px;
+}
+
+h2{
+    color: white;
+    font-size: 28px; /*font-size == tamanho do texto*/
+}
+
+.temp{
+    color: white;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.descricao{
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize; /*Deixa a primeira letra maiúscula*/
+
+}
+
+.umidade{
+    color: white;
+    margin-top: 30px;
+}
